@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Popup Menu Demo</string>
+    <string name="bt_abnormal_status">按一下發生異常</string>
+    <string name="bt_not_abnormal_status">按一下解除異常</string>
+</resources>

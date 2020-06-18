@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="配置Reader"
+        android:icon="@drawable/ic_action_setting">
+        <menu android:icon="@drawable/ic_action_setting">
+            <item android:id="@+id/item_setting_rf_power"
+                android:icon="@drawable/ic_action_power"
+                android:title="射頻功率" />
+            <item android:id="@+id/item_setting_inventory_beep"
+                android:icon="@drawable/ic_action_hearing"
+                android:title="盤存聲音" />
+        </menu>
+    </item>
+    <item android:id="@+id/item_abnormal_status"
+        android:icon="@drawable/ic_action_abnormal"
+        android:title="異常狀態"/>
+    <item android:id="@+id/item_reload_data"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="重新載入資料" />
+</menu>
